@@ -6,6 +6,6 @@ from awschallenge.awschallenge_stack import AwschallengeStack
 
 
 app = core.App()
-AwschallengeStack(app, "awschallenge", env={'region': 'us-west-2'})
+AwschallengeStack(app, "awschallenge", env={'region': 'ap-south-1'})
 
 app.synth()
